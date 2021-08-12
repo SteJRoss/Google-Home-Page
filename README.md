@@ -1,6 +1,6 @@
 <h1>Google HomePage </h1>
 
-<hr><hr />
+<hr>
 
 A Google homepage created using HTML5 & CSS5
 
