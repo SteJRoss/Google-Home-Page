@@ -1,6 +1,6 @@
-<h1>Google HomePage </h1>
+<h1>Google Homepage</h1>
 
-A Google homepage created using HTML5 & CSS5
+The Google homepage created using HTML5 & CSS3
 
 Take a look! :point_down:
 
