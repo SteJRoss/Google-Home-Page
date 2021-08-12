@@ -1,0 +1,187 @@
+/* Global */
+
+#wrapper {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Header */
+
+header {
+  overflow: auto;
+  width: 100%;
+  padding: 6px;
+  font-size: 13px;
+}
+
+nav.topmenu {
+  overflow: auto;
+  width: 100%;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  float: right;
+  padding-bottom: 0px;
+  padding-left: 32px;
+  padding-right: 4px;
+  padding-top: 10px;
+}
+
+.options {
+  width: 24px;
+  height: 24px;
+  color: grey;
+  box-sizing: content-box;
+}
+
+.options:hover {
+  border-radius: 50px;
+  background-color: lightgray;
+}
+
+.me {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  box-sizing: content-box;
+}
+
+.me:hover {
+  border: 3px solid lightgrey;
+}
+
+/* Google Logo */
+
+.glogo {
+  height: 92px;
+  aspect-ratio: auto 272 / 92;
+  margin: 50px auto;
+}
+
+/* Search Bar */
+
+.sb-container {
+  padding: 20px;
+}
+
+.swrapper {
+  width: 584px;
+  height: 46px;
+  margin: 0px auto;
+  border: 1px solid lightgrey;
+  border-radius: 50px;
+  position: relative;
+}
+
+.swrapper:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.bar {
+  width: 500px;
+  height: 38px;
+  margin-top: 2px;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.bar:focus-within {
+  border: transparent;
+}
+
+.bar:active {
+  border: none;
+}
+
+.glass_icon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 12px;
+  opacity: 0.5;
+}
+
+.voice_icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 15px;
+  top: 9px;
+}
+
+/* Buttons */
+
+.bwrapper {
+  width: 300px;
+  margin: 0px auto;
+}
+
+button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid rgb(218, 220, 224);
+  background-color: rgb(242, 242, 242);
+  overflow: auto;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+footer a {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#bottom-left-menu ul {
+  float: left;
+  padding: 0px;
+}
+
+#bottom-right-menu ul {
+  float: right;
+  padding: 0px;
+}
+
+#bottom-left-menu a,
+#bottom-right-menu a {
+  padding: 15px;
+}
