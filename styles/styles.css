@@ -126,6 +126,12 @@ nav a {
   top: 9px;
 }
 
+.test_svg {
+  width: 20px;
+  height: 20px;
+  color: rebeccapurple;
+}
+
 /* Buttons */
 
 .bwrapper {
